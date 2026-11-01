@@ -1,0 +1,28 @@
+# ==========================================
+# ספריות הפרויקט - מתקינים בפקודה אחת:
+#   pip install -r requirements.txt
+# ==========================================
+
+# LlamaIndex - הליבה: חלוקה ל-chunks, אינדקס, חיפוש
+llama-index-core
+
+# חיבור LlamaIndex למודלים של Google Gemini (חינמי)
+llama-index-embeddings-google-genai   # מודל ה-Embeddings
+llama-index-llms-google-genai         # מודל הצ'אט שעונה על השאלות
+
+# מסד הנתונים הווקטורי ChromaDB + החיבור שלו ל-LlamaIndex
+chromadb
+llama-index-vector-stores-chroma
+
+# ממשק הצ'אט בדפדפן
+streamlit
+
+# קריאת קובץ Word (כדי לזהות כותרות של מתכונים וקטגוריות)
+python-docx
+
+# קריאת המפתח מקובץ .env
+python-dotenv
+
+
+# שימוש בתעודות האבטחה של Windows (נדרש כשיש סינון אינטרנט)
+truststore
